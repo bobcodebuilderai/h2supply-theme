@@ -1,0 +1,266 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    },
+    "spacing": {
+      "units": ["px", "em", "rem", "vh", "vw", "%"],
+      "spacingScale": {
+        "operator": "*",
+        "increment": 1.5,
+        "steps": 9,
+        "mediumStep": 5,
+        "unit": "rem"
+      },
+      "spacingSizes": [
+        { "size": "0.25rem", "slug": "10", "name": "1" },
+        { "size": "0.5rem", "slug": "20", "name": "2" },
+        { "size": "1rem", "slug": "30", "name": "3" },
+        { "size": "1.5rem", "slug": "40", "name": "4" },
+        { "size": "2rem", "slug": "50", "name": "5" },
+        { "size": "3rem", "slug": "60", "name": "6" },
+        { "size": "4rem", "slug": "70", "name": "7" },
+        { "size": "6rem", "slug": "80", "name": "8" }
+      ]
+    },
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "White",
+          "slug": "white"
+        },
+        {
+          "color": "#f8fafc",
+          "name": "Gray 50",
+          "slug": "gray-50"
+        },
+        {
+          "color": "#f1f5f9",
+          "name": "Gray 100",
+          "slug": "gray-100"
+        },
+        {
+          "color": "#e2e8f0",
+          "name": "Gray 200",
+          "slug": "gray-200"
+        },
+        {
+          "color": "#cbd5e1",
+          "name": "Gray 300",
+          "slug": "gray-300"
+        },
+        {
+          "color": "#64748b",
+          "name": "Gray 500",
+          "slug": "gray-500"
+        },
+        {
+          "color": "#475569",
+          "name": "Gray 600",
+          "slug": "gray-600"
+        },
+        {
+          "color": "#1e293b",
+          "name": "Gray 800",
+          "slug": "gray-800"
+        },
+        {
+          "color": "#0f172a",
+          "name": "Gray 900",
+          "slug": "gray-900"
+        },
+        {
+          "color": "#2baee4",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#1e8cb8",
+          "name": "Primary Dark",
+          "slug": "primary-dark"
+        },
+        {
+          "color": "#e0f2fe",
+          "name": "Primary Light",
+          "slug": "primary-light"
+        },
+        {
+          "color": "#0ea5e9",
+          "name": "Sky",
+          "slug": "sky"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "primary-gradient",
+          "gradient": "linear-gradient(135deg, #2baee4 0%, #0ea5e9 100%)",
+          "name": "Primary Gradient"
+        },
+        {
+          "slug": "dark-gradient",
+          "gradient": "linear-gradient(135deg, #1e293b 0%, #0f172a 100%)",
+          "name": "Dark Gradient"
+        },
+        {
+          "slug": "hero-gradient",
+          "gradient": "linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0ea5e9 100%)",
+          "name": "Hero Gradient"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+          "name": "Inter",
+          "slug": "inter"
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "0.875rem",
+          "slug": "small",
+          "name": "Small"
+        },
+        {
+          "size": "1rem",
+          "slug": "base",
+          "name": "Base"
+        },
+        {
+          "size": "1.125rem",
+          "slug": "large",
+          "name": "Large"
+        },
+        {
+          "size": "1.25rem",
+          "slug": "xl",
+          "name": "Extra Large"
+        },
+        {
+          "size": "1.5rem",
+          "slug": "2xl",
+          "name": "2X Large"
+        },
+        {
+          "size": "1.875rem",
+          "slug": "3xl",
+          "name": "3X Large"
+        },
+        {
+          "size": "2.25rem",
+          "slug": "4xl",
+          "name": "4X Large"
+        },
+        {
+          "size": "3rem",
+          "slug": "5xl",
+          "name": "5X Large"
+        }
+      ],
+      "lineHeight": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "fontWeight": true
+    },
+    "border": {
+      "radius": true,
+      "color": true,
+      "style": true,
+      "width": true
+    },
+    "shadow": {
+      "presets": [
+        {
+          "name": "Small",
+          "slug": "sm",
+          "shadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)"
+        },
+        {
+          "name": "Medium",
+          "slug": "md",
+          "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)"
+        },
+        {
+          "name": "Large",
+          "slug": "lg",
+          "shadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)"
+        },
+        {
+          "name": "Primary Glow",
+          "slug": "primary-glow",
+          "shadow": "0 0 40px rgba(43, 174, 228, 0.3)"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#1e293b"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|inter",
+      "fontSize": "var:preset|font-size|base",
+      "lineHeight": "1.6"
+    },
+    "blocks": {
+      "core/heading": {
+        "typography": {
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "core/paragraph": {
+        "typography": {
+          "lineHeight": "1.7"
+        }
+      },
+      "core/button": {
+        "color": {
+          "background": "var:preset|color|primary",
+          "text": "#ffffff"
+        },
+        "border": {
+          "radius": "0.5rem"
+        },
+        "typography": {
+          "fontWeight": "600"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "area": "header",
+      "title": "Header"
+    },
+    {
+      "name": "footer",
+      "area": "footer",
+      "title": "Footer"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "page-wide",
+      "title": "Wide Page",
+      "postTypes": ["page"]
+    },
+    {
+      "name": "page-no-title",
+      "title": "Page Without Title",
+      "postTypes": ["page"]
+    }
+  ]
+}

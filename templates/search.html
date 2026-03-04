@@ -1,0 +1,76 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","align":"full","layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull">
+    
+    <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
+        
+        <!-- wp:search {"label":"Søk","showLabel":false,"placeholder":"Søk etter...","width":100,"widthUnit":"%","buttonText":"Søk","buttonPosition":"button-inside","align":"wide","style":{"border":{"radius":"0.5rem"},"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+        
+        
+        <!-- wp:query-title {"type":"search","align":"wide","style":{"typography":{"fontSize":"var:preset|font-size|3xl"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"textColor":"gray-900"} /-->
+        
+        
+        <!-- wp:query {"align":"wide"} -->
+        <div class="wp-block-query alignwide">
+            
+            <!-- wp:post-template -->
+                
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"bottom":{"color":"var:preset|color|gray-200","width":"1px"}}},"layout":{"type":"constrained"}} -->
+                
+                <div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--gray-200);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
+                    
+                    <!-- wp:post-title {"isLink":true,"style":{"typography":{"fontSize":"1.5rem","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"gray-900"} /-->
+                    
+                    
+                    <!-- wp:post-excerpt {"excerptLength":30,"style":{"typography":{"fontSize":"1rem"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"gray-600"} /-->
+                    
+                    
+                    <!-- wp:post-date {"style":{"typography":{"fontSize":"0.875rem"}},"textColor":"gray-500"} /-->
+                    
+                </div>
+                
+                <!-- /wp:group -->
+                
+            <!-- /wp:post-template -->
+            
+            
+            <!-- wp:query-pagination {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
+            
+            <div class="wp-block-query-pagination alignwide">
+                
+                <!-- wp:query-pagination-previous /-->
+                
+                
+                <!-- wp:query-pagination-numbers /-->
+                
+                
+                <!-- wp:query-pagination-next /-->
+            
+            </div>
+            
+            <!-- /wp:query-pagination -->
+            
+            
+            <!-- wp:query-no-results -->
+            
+            <!-- wp:paragraph {"align":"center","placeholder":"Legg til tekst eller blokker som vises når et spørring ikke returnerer noe resultat."} -->
+            
+            <p class="has-text-align-center">Ingen resultater funnet. Prøv et annet søkeord.</p>
+            
+            <!-- /wp:paragraph -->
+            
+            <!-- /wp:query-no-results -->
+            
+        </div>
+        
+        <!-- /wp:query -->
+        
+    </div>
+    <!-- /wp:group -->
+    
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->

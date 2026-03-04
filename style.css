@@ -1,0 +1,18 @@
+/*
+Theme Name: H2 Supply
+Theme URI: https://github.com/simen/h2supply-theme
+Author: Simen
+Author URI: https://h2supply.net
+Description: Modern Block Theme for hydrogen industry company
+Version: 1.0.0
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GPL v2 or later
+Text Domain: h2supply
+Tags: block-theme, full-site-editing, custom-colors, custom-logo, hydrogen, industry
+*/
+
+/* 
+ * Theme styles are handled through theme.json and Tailwind CSS
+ * See assets/css/style.css for compiled styles
+ */
