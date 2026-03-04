@@ -17,9 +17,16 @@
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
         
         <?php
-        $kunde = get_field( 'kunde' );
-        $lokasjon = get_field( 'lokasjon' );
-        $aar = get_field( 'aar' );
+        // Sjekk om ACF er installert for a unnga fatal error
+        if ( function_exists( 'get_field' ) ) {
+            $kunde = get_field( 'kunde' );
+            $lokasjon = get_field( 'lokasjon' );
+            $aar = get_field( 'aar' );
+        } else {
+            $kunde = '';
+            $lokasjon = '';
+            $aar = '';
+        }
         ?>
         
         
